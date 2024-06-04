@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    #barramenu{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+.logo span {
+    color: #007BFF;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.encabezado img {
+    max-width: 100%;
+    height: auto;
+}
+
+.encabezado-text {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.plataformas {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.plataformas img {
+    width: 340px;
+    margin: 0 20px;
+}
+
+.categorias {
+    padding: 20px;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h2 {
+    margin-bottom: 20px;
+}
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peliculas img {
+    width: 220px;
+    margin: 10px;
+}
+
+.letras{
+    color: #111;
+}
+
+.menu div, a{
+    color: #fff;
+}
